@@ -13,5 +13,5 @@ age = 22
 print("nombre",name,"edad",age)
 
 #ingresar datos con input
-name = input("Ingrese el nombre ")
+name = input("Ingrese el nombre: ")
 print("nombre usando el input",name)

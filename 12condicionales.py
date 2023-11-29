@@ -5,7 +5,7 @@ if True:
 
 if False:
     print("nunca va a funcionar")
-
+''''
 pet = input("¿Cual es tu mascota favorita? ")
 if pet == "Perro" or pet == "perro":
     print("tu mascota favorita es un perro")
@@ -16,9 +16,17 @@ elif pet == "pez" or pet == "Pez":
 else:
     print("tu mascota es otro tipo")
 '''
+'''
 stock = int(input("Ingrese el stock "))
 if stock >= 100 and stock <= 1000:
     print(f"el stock de {stock} si esta en los limites")
 else:
     print(f"el stock {stock} no esta en los limites")
 '''
+
+#par o impart
+num = int(input("ingrese el numero ->"))
+if(num % 2 == 0):
+    print(f"el numero {num} es par")
+else:
+    print(f"el numero {num} es impar")

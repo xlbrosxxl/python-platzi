@@ -1,6 +1,22 @@
+#importar ramdom
+import random
+
+#crear tupla con las opciones para la computadora
+options = ("piedra","papel","tijera")
+
+#ingresar opciones de el usuario
 user_option = input("Ingrese 'piedra', 'papel' o 'tijera' ->")
+
+#convertir la opcion en minusculas
 user_option = user_option.lower()
-computer_option = 'papel'
+
+if not(user_option in options):
+    print("la opcion no es valida")
+computer_option = random.choice(options)
+
+#mostrar las opciones
+print(f"useroption -> {user_option}")
+print(f"console option -> {computer_option}")
 
 if(user_option == computer_option):
     print("¡EMPATE!")
